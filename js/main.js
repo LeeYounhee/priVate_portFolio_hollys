@@ -63,8 +63,8 @@ $(".sec").css("width", w);
 $(".sec .wrap").css("width", w);
 $(".slide").css("width", w);
 $(".slide").css("height", h-100);
-$(".slide li").css("width", w);
-$(".slide li").css("height", h-100);
+$(".slide ul li").css("width", w);
+$(".slide ul li").css("height", h-100);
 $(window).resize(function(){
   w=$(window).width();
   h=$(window).height();
@@ -72,8 +72,8 @@ $(window).resize(function(){
   $(".sec .wrap").css("width", w);
   $(".slide").css("width", w);
   $(".slide").css("height", h-100);
-  $(".slide li").css("width", w);
-  $(".slide li").css("height", h-100);
+  $(".slide ul li").css("width", w);
+  $(".slide ul li").css("height", h-100);
 });
 $(function() {
   $('.slide').slide();
